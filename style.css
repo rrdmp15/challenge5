@@ -1,0 +1,104 @@
+html, body{
+    height: 100%;
+}
+body{
+    background: hsl(225, 100%, 94%) url(images/pattern-background-desktop.svg) no-repeat;
+    background-size: contain;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.card{
+    max-width: 450px;
+    background: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 650px;
+    box-shadow: 5px 10px 20px #999;
+}
+.margin{
+    margin: 0 70px;
+}
+h2{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+.img{
+    max-width: 450px;
+}
+.border{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.plan{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0;
+}
+.separado{
+    margin: 0 90px 0 10px;
+}
+.span{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+a:hover{
+    color: #766cf1;
+    text-decoration: none;
+}
+.btn1{
+    background: hsl(245, 75%, 52%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 15px 20px  hsl(225, 100%, 94%);
+}
+.btn1:hover{
+    background: #766cf1;
+}
+.ot-color{
+    color: hsl(225, 100%, 98%);
+    text-decoration: none;
+}
+.ot-color:hover{
+    color: hsl(225, 100%, 98%);
+}
+.cancel{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+.btn2{
+    padding: 25px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding: 20px; 
+}
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+}
+@media (max-width: 600px){
+    body{
+        background: hsl(225, 100%, 94%) url(images/pattern-background-mobile.svg) no-repeat;
+        background-size: contain;
+    }
+}
